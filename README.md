@@ -35,7 +35,7 @@ petal_width = st.sidebar.slider("Petal width",
 
 input_data = [[sepal_length, sepal_width, petal_length, petal_width]]
 
-# Prediction
+
 prediction = model.predict(input_data)
 prediction_species = target_names[prediction[0]]
 
